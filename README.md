@@ -14,21 +14,6 @@ GiftChat is a web-based chat application that allows users to join various chatr
 - **Firebase Firestore**: For storing and retrieving chat messages in real-time.
 - **Date-fns**: For formatting timestamps.
 
-## Installation and Setup
-
-### Prerequisites
-- A web browser
-- Internet connection
-
-### Steps
-1. **Clone the repository**:
-    ```sh
-    git clone https://github.com/your-username/giftchat.git
-    cd giftchat
-    ```
-2. **Open `index.html` in your browser**:
-    Simply open the `index.html` file in a web browser to start using the app.
-
 ## File Structure
 - `index.html`: Main HTML file that includes the structure and links to stylesheets and scripts.
 - `style.css`: Custom styles for the app.
@@ -67,21 +52,8 @@ Replace the placeholder values with your actual Firebase project credentials.
 ### Switching Chatrooms
 1. Click on any of the chatroom buttons (e.g., `#general`, `#gaming`, `#music`, `#techies`) to switch to that chatroom.
 
-## Classes Overview
-
-### Chatroom Class
-- **Constructor**: Initializes with the selected room and username.
-- **Methods**:
-  - `addChat(message)`: Adds a new chat message to Firestore.
-  - `getChat(callback)`: Sets up a real-time listener for new chat messages.
-  - `updateName(username)`: Updates the username and saves it to local storage.
-  - `updateRoom(room)`: Updates the current chatroom and sets up a new listener.
-
-### ChatUI Class
-- **Constructor**: Takes a reference to the chat list element.
-- **Methods**:
-  - `clear()`: Clears the chat list.
-  - `render(data)`: Renders a new chat message to the DOM.
+Deployed Link
+Access the live application [here](https://gift-chat.vercel.app/).
 
 ## Contribution
 Feel free to fork the repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
