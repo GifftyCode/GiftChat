@@ -16,7 +16,7 @@ class Chatroom {
     const chat = {
       message,
       room: this.room,
-      usernaname: this.username,
+      username: this.username,
       created_at: firebase.firestore.Timestamp.fromDate(now),
     };
     // save the chat document
