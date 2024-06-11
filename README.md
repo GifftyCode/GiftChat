@@ -52,7 +52,7 @@ Replace the placeholder values with your actual Firebase project credentials.
 ### Switching Chatrooms
 1. Click on any of the chatroom buttons (e.g., `#general`, `#gaming`, `#music`, `#techies`) to switch to that chatroom.
 
-Deployed Link
+## Deployed Link
 Access the live application [here](https://gift-chat.vercel.app/).
 
 ## Contribution
