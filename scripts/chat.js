@@ -50,16 +50,16 @@ class Chatroom {
   }
 }
 
-const chatroom = new Chatroom('general', 'Chantel');
-chatroom.getChat((data) => {
-  console.log(data);
-});
+// const chatroom = new Chatroom('general', 'Chantel');
+// chatroom.getChat((data) => {
+//   console.log(data);
+// });
 
-setTimeout(() => {
-  chatroom.updateRoom('techie');
-  chatroom.updateName('Cynthia');
-  chatroom.getChat((data) => {
-    console.log(data);
-  });
-  chatroom.addChat('We are getting there');
-}, 3000);
+// setTimeout(() => {
+//   chatroom.updateRoom('techie');
+//   chatroom.updateName('Cynthia');
+//   chatroom.getChat((data) => {
+//     console.log(data);
+//   });
+//   chatroom.addChat('We are getting there');
+// }, 3000);
