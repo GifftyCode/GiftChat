@@ -5,6 +5,9 @@ class ChatUI {
   constructor(list) {
     this.list = list;
   }
+  clear() {
+    this.list.innerHTML = '';
+  }
   render(data) {
     // Responsible for creating an html template for each chat doc we get bk and rendering it to the dom.
     const when = dateFns.distanceInWordsToNow(
