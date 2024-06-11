@@ -27,9 +27,12 @@ newNameForm.addEventListener('submit', (e) => {
   setTimeout(() => (updateMssg.innerText = ''), 3000);
 });
 
+// check local storage for a name input
+const username = localStorage.username ? localStorage.username : 'unknown';
+
 // Class instances
 const chatUI = new ChatUI(chatList);
-const chatroom = new Chatroom('techies', 'Chantel');
+const chatroom = new Chatroom('techies', username);
 
 // get chats and render
 chatroom.getChat((data) => {
